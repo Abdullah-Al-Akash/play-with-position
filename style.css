@@ -1,0 +1,33 @@
+body{
+        width: 100%;
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+}
+.flex{
+        display:flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 5%;
+}
+img{
+        width: 70%;
+}
+
+.box{
+        flex: 1 1 300px;
+        text-align: center;
+}
+.play{
+        text-align: center;
+        padding-top: 5%;
+}
+.play h1{
+        background: orangered;
+        height: 40px;
+        width: 40%;
+        border-radius: 10px;
+        margin: 0 auto;
+        padding-top: 1%;
+}
